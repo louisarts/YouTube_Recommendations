@@ -20,7 +20,7 @@ def clean_string(s):
 # Function to import user profile using GPT-3
 def import_user_profile(user_text):
     # Set OpenAI API key
-    openai.api_key = "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"
+    openai.api_key = "ENTER OPENAI KEY HERE"
 
     # Function to get GPT-3 response for a given command
     def gpt_response(cmd):
