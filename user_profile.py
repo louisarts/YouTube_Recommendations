@@ -24,7 +24,7 @@ def import_user_profile(user_text):
 
     # Function to get GPT-3 response for a given command
     def gpt_response(cmd):
-        with open(f'gpt_commands/{cmd}.txt', 'r') as f:
+        with open(f'{cmd}.txt', 'r') as f:
             contents = f.read()
         completion = openai.ChatCompletion.create(
             model="gpt-3.5-turbo",
