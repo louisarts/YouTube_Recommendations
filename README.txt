@@ -22,3 +22,7 @@ This project generates personalized YouTube video recommendations based on a use
 - pandas
 - scikit-learn
 - openai
+
+## OPENAI key
+
+Don't forget to initialize the openai key variable in the user_profile.py file. You will need to make an account with openai and get a key there in order to use this code.
