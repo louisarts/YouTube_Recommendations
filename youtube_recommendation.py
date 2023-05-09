@@ -11,7 +11,7 @@ def output_yt_df(client_text):
     category = 'A' if weight_loss >= 20 else 'B' if 10 < weight_loss < 20 else 'C'
 
     # Read the dataset
-    df = pd.read_csv('data/output.csv')
+    df = pd.read_csv('output.csv')
 
     # Filter the dataset based on the user's gender
     df = df[df['Gender'].eq(user_profile['gender']) & df['Gender'].notna()]
