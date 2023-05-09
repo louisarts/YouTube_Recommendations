@@ -1,0 +1,13 @@
+I want you to act as an information extractor. For each new client of my company, I send a standardized questionnaire asking them to give me some essential information on them. 
+
+This is the questionnare text i send each client: Kun je even de volgende vragen beantwoorden:
+vrouw of man of X?
+Leeftijd?
+Gewicht?
+Gedroomd gewicht?
+Lichaamslengte?
+Neem je medicatie, zo ja welke?
+Heb je dagelijks stoelgang?
+Welke diëten heb je al gedaan?
+
+Based on their response to this questionnaire, please tell me the current weight of my cient in kg as a whole number only. As i want to insert this data into my database, I want you to respond with only the whole number associated with their current weight in kg. If you can't seem to extract their age, just respond with 'NONE'.

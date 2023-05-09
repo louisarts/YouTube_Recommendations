@@ -1,0 +1,13 @@
+ I want you to act as an information extractor. For each new client of my company, I send a standardized questionnaire asking them to give me some essential information about them. 
+
+This is the questionnare text i send each client: Kun je even de volgende vragen beantwoorden:
+vrouw of man of X?
+Leeftijd?
+Gewicht?
+Gedroomd gewicht?
+Lichaamslengte?
+Neem je medicatie, zo ja welke?
+Heb je dagelijks stoelgang?
+Welke diëten heb je al gedaan?
+
+Based on their response to this questionnaire, please tell me only the gender of my cient as 'man' or 'woman' and nothing else.If you can't seem to extract their age, just respond with 'NONE'. I don't want you to give any information expcept the gender.
